@@ -1,12 +1,12 @@
 /*
-	Tobby制作:极域退出器 
+	Tobby制作:极域退出器 1.3
 */
 #include<bits/stdc++.h>
 #include<windows.h>
 using namespace std; 
 int main(){
 	printf("--By Tobby--\n");
-	printf("jiyu-easy-exiter\n");
+	printf("jiyu-easy-exiter 1.3\n");
 	printf("正在退出:\n");
 	printf("尝试使用taskkill:");
 	system("taskkill /f /t /im StudentMain.exe"); 
@@ -19,7 +19,13 @@ int main(){
 	printf("尝试清除:\n");
 	system("ntsd -c q -pn StudentMain.exe");
 	//ntsd强力方法
-	printf("程序执行完成!");
+	printf("程序执行完成!是否检测更新?(Y/N)");
+	char f;
+	cin>>f;
+	if(f=='Y'){
+		printf("开始检测...\n");
+		system("Update.exe");	
+	}
 	system("PAUSE"); 
 	return 0;
 }

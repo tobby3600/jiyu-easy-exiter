@@ -1,4 +1,4 @@
-# jiyu-easy-exiter
+# jiyu-easy-exiter 1.3
 
 # 极域简单退出器
 
@@ -21,3 +21,7 @@
 ### 没有极域?
 
 可以使用本软件中的StudentMain.exe模拟极域~
+
+## 新更新!自动下载
+
+## 只需打开Update.exe即可自动更新，无需手动下载!
